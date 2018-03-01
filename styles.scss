@@ -1,0 +1,48 @@
+%coverpage{
+    height: 100%;
+    width: 100%;
+}
+$animationLenth: 3000ms;
+html{
+    @extend %coverpage;
+}
+body{
+    @extend %coverpage;
+    align-items: center;
+    background-color: rgb(0, 31, 122);
+    display: flex;
+    justify-content: center;
+}
+.frame{
+    display: none;
+}
+.frame.active{
+    display: inline-flex;
+}
+.animatingOut{
+    animation-duration: $animationLenth;
+    animation-name: animatingOut;
+}
+.animatingIn{
+    animation-duration: $animationLenth;
+    animation-name: animatingIn;
+}
+@keyframes animatingOut{
+    from{
+        opacity: 100;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes animatingIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}
+img{
+    height: 100%;
+}
