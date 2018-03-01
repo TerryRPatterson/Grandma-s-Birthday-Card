@@ -4,7 +4,7 @@
 
 let header = $(".header");
 let frame = 1;
-let maxFrame = 3;
+let maxFrame = 4;
 let progressAnimation = function progressAnimation(){
     if (frame < maxFrame){
         let current = $("#" + frame);
@@ -15,6 +15,9 @@ let progressAnimation = function progressAnimation(){
         console.log(current.css("animation-duration"));
         window.setTimeout(animateOut,3000,current,next);
         setTimeout(progressAnimation,6000);
+    }
+    else{
+        $("title").text("Happy Birthday!!!");
     }
 };
 let animateOut = function animateOut(previous,next){

@@ -1,6 +1,7 @@
 %coverpage{
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 $animationLenth: 3000ms;
 html{
@@ -15,6 +16,8 @@ body{
 }
 .frame{
     display: none;
+    flex-direction: column-reverse;
+    justify-content: center;
 }
 .frame.active{
     display: inline-flex;
@@ -45,4 +48,7 @@ body{
 }
 img{
     height: 100%;
+}
+.frameImage{
+    height: 80%;
 }
