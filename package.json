@@ -1,0 +1,25 @@
+{
+  "name": "grandmasbirthdaycard",
+  "version": "1.0.0",
+  "description": "A birthday card for Grandma Yoder",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TerryRPatterson/Grandma-s-Birthday-Card.git"
+  },
+  "author": "Terry Patterson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TerryRPatterson/Grandma-s-Birthday-Card/issues"
+  },
+  "homepage": "https://github.com/TerryRPatterson/Grandma-s-Birthday-Card#readme",
+  "devDependencies": {
+    "eslint": "^4.18.1"
+  },
+  "dependencies": {
+    "ajv": "^6.2.0"
+  }
+}
