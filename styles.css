@@ -1,13 +1,13 @@
 html, body {
   height: 100%;
-  width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 100%; }
 
 body {
   align-items: center;
   background-color: #001f7a;
-  display: flex;
   color: white;
+  display: flex;
   justify-content: center; }
 
 .frame {

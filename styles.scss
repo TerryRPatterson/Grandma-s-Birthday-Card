@@ -1,7 +1,7 @@
 %coverpage{
     height: 100%;
-    width: 100%;
     overflow: hidden;
+    width: 100%;
 }
 $animationLenth: 3000ms;
 html{
@@ -11,8 +11,8 @@ body{
     @extend %coverpage;
     align-items: center;
     background-color: rgb(0, 31, 122);
-    display: flex;
     color: white;
+    display: flex;
     justify-content: center;
 }
 .frame{
