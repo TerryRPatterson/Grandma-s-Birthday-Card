@@ -7,6 +7,7 @@ body {
   align-items: center;
   background-color: #001f7a;
   display: flex;
+  color: white;
   justify-content: center; }
 
 .frame {
