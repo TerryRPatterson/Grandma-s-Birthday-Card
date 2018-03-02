@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+body {
+  align-items: center;
+  background-color: #001f7a;
+  display: flex;
+  color: white;
+  justify-content: center; }
+
+.frame {
+  display: none;
+  flex-direction: column-reverse;
+  justify-content: center; }
+
+.frame.active {
+  display: inline-flex; }
+
+.animatingOut {
+  animation-duration: 3000ms;
+  animation-name: animatingOut; }
+
+.animatingIn {
+  animation-duration: 3000ms;
+  animation-name: animatingIn; }
+
+@keyframes animatingOut {
+  from {
+    opacity: 100; }
+  to {
+    opacity: 0; } }
+@keyframes animatingIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100; } }
+img {
+  height: 100%; }
+
+.frameImage {
+  height: 80%; }
+
+/*# sourceMappingURL=styles.css.map */
